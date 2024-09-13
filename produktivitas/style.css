@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    background-color: #122234;
+}
+
+.page-container {
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    margin-top: 100px;
+    margin-left: 300px;
+    background-color: #122234;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.card img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.card h2,
+.card h4 {
+    margin: 0;
+    color: #f5f5f5;
+    text-align: left;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    margin-bottom: 20px;
+}
+
+.card form {
+    margin-top: 20px;
+}
+
+.card label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: left;
+}
+
+.card input[type="number"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card button[type="submit"] {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.card button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.card-2 {
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: #122234;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.card-2 label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: left;
+}
+
+.card-2 input:disabled {
+    opacity: 1; /* Reduce opacity for disabled state */
+    cursor: not-allowed; /* Indicate element is not clickable */
+    background-color: #f5f5f5; /* Set background color for disabled state */
+    width: 100%; /* Apply desired styles */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #000;
+}
+.page-form-2 a {
+    margin-left: 200px;
+    background-color: #fff; /* Same background color as submit button */
+    color: #000; /* Same text color as submit button */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Indicate clickable element */
+    border-radius: 25px; /* Same border radius as submit button */
+    width: 100px; /* Same width as submit button (adjust if needed) */
+    margin-bottom: 20px; /* Same margin-bottom as submit button */
+    padding: 10px; /* Same padding as submit button */
+    text-align: center; /* Center text alignment */
+    text-decoration: none; /* Remove underline decoration */
+  }
+  
+  .page-form-2 a:hover {
+    background-color: #0056b3; /* Same hover color as submit button */
+  }
+  

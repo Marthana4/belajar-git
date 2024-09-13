@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5; 
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    max-width: 400px; 
+}
+
+.card {
+    background-color: #122234; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center; 
+}
+
+.card img {
+    width: 100px; 
+    margin-bottom: 20px;
+}
+
+.card h2,
+.card h4 {
+    margin: 0;
+    color: #f5f5f5;
+    text-align: left;  
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    margin-bottom: 20px;
+}
+
+.card form {
+    margin-top: 20px; 
+}
+
+.card input {
+    width: 90%;
+    margin-bottom: 20px; 
+    padding: 12px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    color: #fff;
+    transition: border-color 0.3s ease; 
+    background-color: #122234;
+}
+
+.card button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 20px; 
+    padding: 12px;
+}
+
+.card button[type="submit"]:hover {
+    background-color: #0056b3;
+}
