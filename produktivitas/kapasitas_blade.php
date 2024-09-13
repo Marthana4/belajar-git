@@ -23,7 +23,7 @@
                     <input type="number" id="tinggi_blade" name="tinggi_blade" placeholder="" required>
                     <label for="faktor_blade">Faktor Blade</label>
                     <input type="number" id="faktor_blade" name="faktor_blade" placeholder="" required>
-                    <button type="submit">Kirim</button>
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div>
